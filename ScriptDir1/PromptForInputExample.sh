@@ -5,6 +5,8 @@ echo "Hello World!"
 
 echo "You called this script with these parameters $@ "
 
+echo "Add it is running as this user : $(whoami) ."
+
 echo "I now will ask you for some information"
 
 question="What is your favourite colour?"
